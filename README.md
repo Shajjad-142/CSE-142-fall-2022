@@ -1,5 +1,5 @@
 # CSE-122-fall-2022
-This is a OOP C++ repository
+This is an OOP C++ Lab repository
 
 Student Id: 21225103142
 
