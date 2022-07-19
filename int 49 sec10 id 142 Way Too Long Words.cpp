@@ -1,4 +1,4 @@
-//https://codeforces.com/contest/4/problem/A
+//https://codeforces.com/problemset/problem/71/A
 //Name: shajjad
 //ID: 21225103142
 #include<iostream>
