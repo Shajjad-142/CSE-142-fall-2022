@@ -2,22 +2,15 @@
 //Name: shajjad
 //ID: 21225103142
 #include<iostream>
-#include<string>
 using namespace std;
-int main()
-{
-    int n;
-
-    cin>>n;
-    for(int i=0;i<n;i++)
-    {
-         string s;
-        cin>>s;
-        if (s.length()>10)
-       {
-           cout << s[0] << s.length()-2 << s[s.length()-1]<< endl;
-       }
-        else
-            cout<<s<<endl;
-    }
+int main(){
+int w;
+cin >> w;
+if(w%2==0&&w!=2){
+    cout<<"YES";
+}
+else{
+    cout<<"NO";
+}
+return 0;
 }
