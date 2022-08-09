@@ -11,21 +11,15 @@ int main()
     sort(s.begin(),s.end());
     for(i=0;i<s.length();i++)
     {
-
-            if(s[i]==s[i+1])
+        if(s[i]==s[i+1])
             continue;
-            else
-                b++;
-
+        else
+            b++;
     }
-if(b%2==0)
-{
-        cout <<b<<"         "<<"CHAT WITH HER!"<<endl;
+        if(b%2==0)
+            cout <<"CHAT WITH HER!"<<endl;
+        else
+            cout <<"IGNORE HIM!"<<endl;
 
 }
-    else
 
-
-    cout <<b<<"         "<<"IGNORE HIM!"<<endl;
-
-}
