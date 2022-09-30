@@ -1,15 +1,22 @@
-#include <bits/stdc++.h>
+//        https://codeforces.com/problemset/problem/339/A
+//        Name: shajjad
+//        ID: 21225103142
+#include<bits/stdc++.h>
 using namespace std;
+int main()
+{
+    string s;
+    cin>>s;
+    for(int i=0;i<s.size();i=i+2)
+    {
+           for(int j=0;j<s.size()-1;j=j+2)
+           {
+              if(s[j]>s[j+2])
+            {
+               swap(s[j],s[j+2]);
+            }
 
-
-int main() {
-    int a;
-    long long b;
-    char c;
-    float d;
-    double e;
-    cin>>a>>b>>c>>d>>e;
-       cout<<a<<endl<<b<<endl<<c<<endl<<d<<endl<<e;
-
-    return 0;
+    }
+}
+        cout<<s;
 }
