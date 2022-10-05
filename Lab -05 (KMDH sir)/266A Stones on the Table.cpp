@@ -1,3 +1,6 @@
+//https://codeforces.com/problemset/problem/266/A
+//Name: shajjad
+//ID: 21225103142
 #include<bits/stdc++.h>
 using namespace std;
 int main ()
